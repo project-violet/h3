@@ -47,7 +47,7 @@ for file in onlyfiles:
     im = Image.open(fs).convert("RGB")
     im.save(fs + '.jpg', "jpeg")
 
-    reader = easyocr.Reader(['en'], gpu=False)
+    reader = easyocr.Reader(['ko'], gpu=False)
     result = reader.readtext(fs + '.jpg')
 
     page_count += 1
