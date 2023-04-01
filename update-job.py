@@ -4,7 +4,7 @@
 import os
 import sys
 
-job_count = 20
+job_count = 5
 job_id = int(sys.argv[1])
 
 read_id_index = int(open("workspace/current_job" + str(job_id), "r").read().strip()) - 1
