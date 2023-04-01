@@ -4,7 +4,7 @@
 import os
 import sys
 
-job_count = 20
+job_count = 5
 
 ids = open("ids.txt", "r").read().split(',')
 ids_len = len(ids)
