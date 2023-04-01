@@ -10,7 +10,7 @@ ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
-job_count = 20
+job_count = 5
 job_id = int(sys.argv[1])
 
 job_index = int(open("workspace/current_job" +

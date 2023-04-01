@@ -8,7 +8,7 @@ import os.path
 from os.path import isfile, join
 import re
 
-sched_slot_count = 20
+sched_slot_count = 5
 
 
 def create_sched(id):
@@ -24,8 +24,8 @@ def create_sched(id):
     f.close()
 
 
-# for i in range(sched_slot_count):
-#     create_sched(str(i))
+for i in range(sched_slot_count):
+    create_sched(str(i))
 
 
 def sched_jobs():
@@ -52,7 +52,7 @@ def sched_jobs():
         create_job(i)
 
 
-sched_jobs()
+# sched_jobs()
 
 
 def init_jobs():
@@ -61,4 +61,4 @@ def init_jobs():
             f.write(str(0))
 
 
-# init_jobs()
+init_jobs()
