@@ -5,11 +5,11 @@ Everything doing here is automated.
 ```
 htext-miner
 
-total: 975/9855 (9.89345509893455%)
+total: 979/9855 (9.93404363267377%)
 
 job0: 178
-job1: 205
-job2: 192
-job3: 206
-job4: 194
+job1: 206
+job2: 193
+job3: 207
+job4: 195
 ```
